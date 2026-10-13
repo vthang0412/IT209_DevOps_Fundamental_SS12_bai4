@@ -51,7 +51,7 @@
           with:
             context: .
             push: true
-            tags: ghcr.io/${{ github.repository }}:latest
+            tags: ${{ steps.image.outputs.name }}:latest
 
     deploy-vps:
       name: Deploy to VPS
