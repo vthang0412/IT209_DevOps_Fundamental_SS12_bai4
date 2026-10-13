@@ -1,4 +1,4 @@
-  ```yaml
+
   name: Build and Deploy Spring Boot to VPS
 
   on:
@@ -90,4 +90,3 @@
                 "$IMAGE_NAME"
               
               docker ps
-    ```
